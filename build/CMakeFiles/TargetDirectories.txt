@@ -1,0 +1,5 @@
+/home/elias/Projects/C++/Mirror/build/CMakeFiles/glad.dir
+/home/elias/Projects/C++/Mirror/build/CMakeFiles/imgui.dir
+/home/elias/Projects/C++/Mirror/build/CMakeFiles/Engine.dir
+/home/elias/Projects/C++/Mirror/build/CMakeFiles/edit_cache.dir
+/home/elias/Projects/C++/Mirror/build/CMakeFiles/rebuild_cache.dir
