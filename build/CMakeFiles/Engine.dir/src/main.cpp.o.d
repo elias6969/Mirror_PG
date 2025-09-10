@@ -340,6 +340,12 @@ CMakeFiles/Engine.dir/src/main.cpp.o: \
  /usr/include/c++/15.2.1/bits/fstream.tcc /usr/include/c++/15.2.1/sstream \
  /usr/include/c++/15.2.1/bits/sstream.tcc \
  /usr/include/c++/15.2.1/iostream \
+ /home/elias/Projects/C++/Mirror/include/Sphere.h \
+ /usr/include/c++/15.2.1/vector \
+ /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
+ /usr/include/c++/15.2.1/bits/stl_vector.h \
+ /usr/include/c++/15.2.1/bits/stl_bvector.h \
+ /usr/include/c++/15.2.1/bits/vector.tcc \
  /home/elias/Projects/C++/Mirror/include/mirror_demo.h \
  /home/elias/Projects/C++/Mirror/external/imgui-docking/imgui/backends/imgui_impl_glfw.h \
  /home/elias/Projects/C++/Mirror/external/imgui-docking/imgui/imgui.h \

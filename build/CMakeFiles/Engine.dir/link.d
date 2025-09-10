@@ -3,10 +3,12 @@ Engine: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
   CMakeFiles/Engine.dir/src/OpenGLerrorreporting.cpp.o \
+  CMakeFiles/Engine.dir/src/Variables.cpp.o \
   CMakeFiles/Engine.dir/src/filemanager.cpp.o \
   CMakeFiles/Engine.dir/src/general.cpp.o \
   CMakeFiles/Engine.dir/src/main.cpp.o \
   CMakeFiles/Engine.dir/src/mirror_demo.cpp.o \
+  CMakeFiles/Engine.dir/src/textureManager.cpp.o \
   libglad.a \
   libimgui.a \
   /usr/lib/libglfw.so.3.4 \
@@ -55,6 +57,8 @@ Engine: \
 
 CMakeFiles/Engine.dir/src/OpenGLerrorreporting.cpp.o:
 
+CMakeFiles/Engine.dir/src/Variables.cpp.o:
+
 CMakeFiles/Engine.dir/src/filemanager.cpp.o:
 
 CMakeFiles/Engine.dir/src/general.cpp.o:
@@ -62,6 +66,8 @@ CMakeFiles/Engine.dir/src/general.cpp.o:
 CMakeFiles/Engine.dir/src/main.cpp.o:
 
 CMakeFiles/Engine.dir/src/mirror_demo.cpp.o:
+
+CMakeFiles/Engine.dir/src/textureManager.cpp.o:
 
 libglad.a:
 

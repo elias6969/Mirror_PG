@@ -3,7 +3,9 @@
 
 #include "Camera.h"
 #include "Cube.h"
+#include "Sphere.h"
 #include "mirror_demo.h"
+#include <glm/geometric.hpp>
 #include <iostream>
 
 // Dear ImGui
@@ -44,7 +46,7 @@ int main() {
 #endif
 
   GLFWwindow *window =
-      glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "OpenGL + ImGui", NULL, NULL);
+      glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Mirror", NULL, NULL);
   if (!window) {
     std::cout << "Failed to create GLFW window\n";
     glfwTerminate();
@@ -80,8 +82,12 @@ int main() {
   bool showDemo = false;
   float clearColor[3] = {0.2f, 0.3f, 0.3f};
 
-  glm::vec3 planeNormal(0.0f, 0.0f, 5.0f);
-  float planeD = 0.0f;
+  glm::vec3 planeNormal(0.0f, 0.0f, -1.0f);
+  glm::vec3 pointOnPLane(0.0f, 0.0f, -5.0f);
+  float planeD = -glm::dot(planeNormal, pointOnPLane);
+
+  Sphere sphere(1, 36, 18);
+
   // render loop
   while (!glfwWindowShouldClose(window)) {
     // per-frame timing
@@ -100,12 +106,12 @@ int main() {
         Camera::getReflectedCamera(camera, planeNormal, planeD);
     cube.render(reflectedCam, window);
 
-    glBindFramebuffer(GL_FRAMEBUFFER, 0); 
+    glBindFramebuffer(GL_FRAMEBUFFER, 0);
 
     glClearColor(clearColor[0], clearColor[1], clearColor[2], 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     cube.render(camera, window);
-
+    sphere.Draw(camera, cube.Position);
     mirror.renderMirror(camera);
 
     ImGui_ImplOpenGL3_NewFrame();
@@ -116,6 +122,9 @@ int main() {
     ImGui::Text("Hello from ImGui!");
     ImGui::Checkbox("Show demo window", &showDemo);
     ImGui::ColorEdit3("Clear color", clearColor);
+    ImGui::SliderFloat("Light X", &cube.Position.x, -10.0f, 10.0f);
+    ImGui::SliderFloat("Light Y", &cube.Position.y, -10.0f, 10.0f);
+    ImGui::SliderFloat("Light Z", &cube.Position.z, -10.0f, 10.0f);
     ImGui::Text("FPS: %.1f", io.Framerate);
     ImGui::End();
 
@@ -157,7 +166,7 @@ void processInput(GLFWwindow *window) {
       keyHeld = true;
     }
   } else {
-    // reset when no key pressed so we can toggle again
+    // reset when no key pressed so it can be toggled again
     keyHeld = false;
   }
 
@@ -179,6 +188,10 @@ void framebuffer_size_callback(GLFWwindow *window, int width, int height) {
 }
 
 void mouse_callback(GLFWwindow *window, double xpos, double ypos) {
+  if(cursorEnabled) {
+    firstMouse = true;
+    return;
+  }
   if (firstMouse) {
     lastX = xpos;
     lastY = ypos;

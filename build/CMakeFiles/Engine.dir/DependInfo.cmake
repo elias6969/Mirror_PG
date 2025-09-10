@@ -9,10 +9,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/elias/Projects/C++/Mirror/src/OpenGLerrorreporting.cpp" "CMakeFiles/Engine.dir/src/OpenGLerrorreporting.cpp.o" "gcc" "CMakeFiles/Engine.dir/src/OpenGLerrorreporting.cpp.o.d"
+  "/home/elias/Projects/C++/Mirror/src/Variables.cpp" "CMakeFiles/Engine.dir/src/Variables.cpp.o" "gcc" "CMakeFiles/Engine.dir/src/Variables.cpp.o.d"
   "/home/elias/Projects/C++/Mirror/src/filemanager.cpp" "CMakeFiles/Engine.dir/src/filemanager.cpp.o" "gcc" "CMakeFiles/Engine.dir/src/filemanager.cpp.o.d"
   "/home/elias/Projects/C++/Mirror/src/general.cpp" "CMakeFiles/Engine.dir/src/general.cpp.o" "gcc" "CMakeFiles/Engine.dir/src/general.cpp.o.d"
   "/home/elias/Projects/C++/Mirror/src/main.cpp" "CMakeFiles/Engine.dir/src/main.cpp.o" "gcc" "CMakeFiles/Engine.dir/src/main.cpp.o.d"
   "/home/elias/Projects/C++/Mirror/src/mirror_demo.cpp" "CMakeFiles/Engine.dir/src/mirror_demo.cpp.o" "gcc" "CMakeFiles/Engine.dir/src/mirror_demo.cpp.o.d"
+  "/home/elias/Projects/C++/Mirror/src/textureManager.cpp" "CMakeFiles/Engine.dir/src/textureManager.cpp.o" "gcc" "CMakeFiles/Engine.dir/src/textureManager.cpp.o.d"
   "" "Engine" "gcc" "CMakeFiles/Engine.dir/link.d"
   )
 
