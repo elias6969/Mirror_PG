@@ -780,9 +780,12 @@ CMakeFiles/Engine.dir/src/general.cpp.o: /home/elias/Projects/C++/Mirror/src/gen
   /home/elias/Projects/C++/Mirror/external/glad/include/glad/glad.h \
   /home/elias/Projects/C++/Mirror/external/stb_image.h \
   /home/elias/Projects/C++/Mirror/include/Camera.h \
+  /home/elias/Projects/C++/Mirror/include/Cone.h \
   /home/elias/Projects/C++/Mirror/include/Cube.h \
+  /home/elias/Projects/C++/Mirror/include/Material.h \
   /home/elias/Projects/C++/Mirror/include/Shader.h \
   /home/elias/Projects/C++/Mirror/include/Sphere.h \
+  /home/elias/Projects/C++/Mirror/include/Torus.h \
   /home/elias/Projects/C++/Mirror/include/Variables.h \
   /home/elias/Projects/C++/Mirror/include/textureManager.h \
   /usr/include/GLFW/glfw3.h \
@@ -893,6 +896,7 @@ CMakeFiles/Engine.dir/src/general.cpp.o: /home/elias/Projects/C++/Mirror/src/gen
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
+  /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
@@ -920,6 +924,7 @@ CMakeFiles/Engine.dir/src/general.cpp.o: /home/elias/Projects/C++/Mirror/src/gen
   /usr/include/c++/15.2.1/bits/move.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
+  /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
@@ -945,8 +950,11 @@ CMakeFiles/Engine.dir/src/general.cpp.o: /home/elias/Projects/C++/Mirror/src/gen
   /usr/include/c++/15.2.1/bits/stl_iterator.h \
   /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/15.2.1/bits/stl_map.h \
+  /usr/include/c++/15.2.1/bits/stl_multimap.h \
   /usr/include/c++/15.2.1/bits/stl_pair.h \
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/15.2.1/bits/stl_tree.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
@@ -982,6 +990,7 @@ CMakeFiles/Engine.dir/src/general.cpp.o: /home/elias/Projects/C++/Mirror/src/gen
   /usr/include/c++/15.2.1/debug/assertions.h \
   /usr/include/c++/15.2.1/debug/debug.h \
   /usr/include/c++/15.2.1/exception \
+  /usr/include/c++/15.2.1/ext/aligned_buffer.h \
   /usr/include/c++/15.2.1/ext/alloc_traits.h \
   /usr/include/c++/15.2.1/ext/atomicity.h \
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
@@ -996,6 +1005,7 @@ CMakeFiles/Engine.dir/src/general.cpp.o: /home/elias/Projects/C++/Mirror/src/gen
   /usr/include/c++/15.2.1/istream \
   /usr/include/c++/15.2.1/limits \
   /usr/include/c++/15.2.1/locale \
+  /usr/include/c++/15.2.1/map \
   /usr/include/c++/15.2.1/new \
   /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
@@ -1268,9 +1278,13 @@ CMakeFiles/Engine.dir/src/main.cpp.o: /home/elias/Projects/C++/Mirror/src/main.c
   /home/elias/Projects/C++/Mirror/external/imgui-docking/imgui/imconfig.h \
   /home/elias/Projects/C++/Mirror/external/imgui-docking/imgui/imgui.h \
   /home/elias/Projects/C++/Mirror/include/Camera.h \
+  /home/elias/Projects/C++/Mirror/include/Cone.h \
   /home/elias/Projects/C++/Mirror/include/Cube.h \
+  /home/elias/Projects/C++/Mirror/include/Material.h \
   /home/elias/Projects/C++/Mirror/include/Shader.h \
   /home/elias/Projects/C++/Mirror/include/Sphere.h \
+  /home/elias/Projects/C++/Mirror/include/Torus.h \
+  /home/elias/Projects/C++/Mirror/include/Variables.h \
   /home/elias/Projects/C++/Mirror/include/mirror_demo.h \
   /usr/include/GLFW/glfw3.h \
   /usr/include/alloca.h \
@@ -1380,6 +1394,7 @@ CMakeFiles/Engine.dir/src/main.cpp.o: /home/elias/Projects/C++/Mirror/src/main.c
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
+  /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
   /usr/include/c++/15.2.1/bits/exception_defines.h \
   /usr/include/c++/15.2.1/bits/exception_ptr.h \
@@ -1407,6 +1422,7 @@ CMakeFiles/Engine.dir/src/main.cpp.o: /home/elias/Projects/C++/Mirror/src/main.c
   /usr/include/c++/15.2.1/bits/move.h \
   /usr/include/c++/15.2.1/bits/nested_exception.h \
   /usr/include/c++/15.2.1/bits/new_allocator.h \
+  /usr/include/c++/15.2.1/bits/node_handle.h \
   /usr/include/c++/15.2.1/bits/ostream.h \
   /usr/include/c++/15.2.1/bits/ostream.tcc \
   /usr/include/c++/15.2.1/bits/ostream_insert.h \
@@ -1432,8 +1448,11 @@ CMakeFiles/Engine.dir/src/main.cpp.o: /home/elias/Projects/C++/Mirror/src/main.c
   /usr/include/c++/15.2.1/bits/stl_iterator.h \
   /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/15.2.1/bits/stl_map.h \
+  /usr/include/c++/15.2.1/bits/stl_multimap.h \
   /usr/include/c++/15.2.1/bits/stl_pair.h \
   /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/15.2.1/bits/stl_tree.h \
   /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/15.2.1/bits/stl_vector.h \
   /usr/include/c++/15.2.1/bits/streambuf.tcc \
@@ -1462,12 +1481,14 @@ CMakeFiles/Engine.dir/src/main.cpp.o: /home/elias/Projects/C++/Mirror/src/main.c
   /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
+  /usr/include/c++/15.2.1/cstring \
   /usr/include/c++/15.2.1/ctime \
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
   /usr/include/c++/15.2.1/debug/debug.h \
   /usr/include/c++/15.2.1/exception \
+  /usr/include/c++/15.2.1/ext/aligned_buffer.h \
   /usr/include/c++/15.2.1/ext/alloc_traits.h \
   /usr/include/c++/15.2.1/ext/atomicity.h \
   /usr/include/c++/15.2.1/ext/numeric_traits.h \
@@ -1482,6 +1503,7 @@ CMakeFiles/Engine.dir/src/main.cpp.o: /home/elias/Projects/C++/Mirror/src/main.c
   /usr/include/c++/15.2.1/istream \
   /usr/include/c++/15.2.1/limits \
   /usr/include/c++/15.2.1/locale \
+  /usr/include/c++/15.2.1/map \
   /usr/include/c++/15.2.1/new \
   /usr/include/c++/15.2.1/numbers \
   /usr/include/c++/15.2.1/optional \
@@ -1545,6 +1567,7 @@ CMakeFiles/Engine.dir/src/main.cpp.o: /home/elias/Projects/C++/Mirror/src/main.c
   /usr/include/glm/detail/func_vector_relational.inl \
   /usr/include/glm/detail/qualifier.hpp \
   /usr/include/glm/detail/setup.hpp \
+  /usr/include/glm/detail/type_float.hpp \
   /usr/include/glm/detail/type_half.hpp \
   /usr/include/glm/detail/type_half.inl \
   /usr/include/glm/detail/type_mat2x2.hpp \
@@ -1565,6 +1588,8 @@ CMakeFiles/Engine.dir/src/main.cpp.o: /home/elias/Projects/C++/Mirror/src/main.c
   /usr/include/glm/detail/type_mat4x3.inl \
   /usr/include/glm/detail/type_mat4x4.hpp \
   /usr/include/glm/detail/type_mat4x4.inl \
+  /usr/include/glm/detail/type_quat.hpp \
+  /usr/include/glm/detail/type_quat.inl \
   /usr/include/glm/detail/type_vec1.hpp \
   /usr/include/glm/detail/type_vec1.inl \
   /usr/include/glm/detail/type_vec2.hpp \
@@ -1616,34 +1641,60 @@ CMakeFiles/Engine.dir/src/main.cpp.o: /home/elias/Projects/C++/Mirror/src/main.c
   /usr/include/glm/ext/matrix_projection.inl \
   /usr/include/glm/ext/matrix_transform.hpp \
   /usr/include/glm/ext/matrix_transform.inl \
+  /usr/include/glm/ext/quaternion_common.hpp \
+  /usr/include/glm/ext/quaternion_common.inl \
+  /usr/include/glm/ext/quaternion_double.hpp \
+  /usr/include/glm/ext/quaternion_double_precision.hpp \
+  /usr/include/glm/ext/quaternion_float.hpp \
+  /usr/include/glm/ext/quaternion_float_precision.hpp \
+  /usr/include/glm/ext/quaternion_geometric.hpp \
+  /usr/include/glm/ext/quaternion_geometric.inl \
+  /usr/include/glm/ext/quaternion_relational.hpp \
+  /usr/include/glm/ext/quaternion_relational.inl \
+  /usr/include/glm/ext/quaternion_transform.hpp \
+  /usr/include/glm/ext/quaternion_transform.inl \
+  /usr/include/glm/ext/quaternion_trigonometric.hpp \
+  /usr/include/glm/ext/quaternion_trigonometric.inl \
   /usr/include/glm/ext/scalar_constants.hpp \
   /usr/include/glm/ext/scalar_constants.inl \
   /usr/include/glm/ext/scalar_int_sized.hpp \
   /usr/include/glm/ext/scalar_uint_sized.hpp \
+  /usr/include/glm/ext/vector_bool1.hpp \
+  /usr/include/glm/ext/vector_bool1_precision.hpp \
   /usr/include/glm/ext/vector_bool2.hpp \
   /usr/include/glm/ext/vector_bool2_precision.hpp \
   /usr/include/glm/ext/vector_bool3.hpp \
   /usr/include/glm/ext/vector_bool3_precision.hpp \
   /usr/include/glm/ext/vector_bool4.hpp \
   /usr/include/glm/ext/vector_bool4_precision.hpp \
+  /usr/include/glm/ext/vector_double1.hpp \
+  /usr/include/glm/ext/vector_double1_precision.hpp \
   /usr/include/glm/ext/vector_double2.hpp \
   /usr/include/glm/ext/vector_double2_precision.hpp \
   /usr/include/glm/ext/vector_double3.hpp \
   /usr/include/glm/ext/vector_double3_precision.hpp \
   /usr/include/glm/ext/vector_double4.hpp \
   /usr/include/glm/ext/vector_double4_precision.hpp \
+  /usr/include/glm/ext/vector_float1.hpp \
+  /usr/include/glm/ext/vector_float1_precision.hpp \
   /usr/include/glm/ext/vector_float2.hpp \
   /usr/include/glm/ext/vector_float2_precision.hpp \
   /usr/include/glm/ext/vector_float3.hpp \
   /usr/include/glm/ext/vector_float3_precision.hpp \
   /usr/include/glm/ext/vector_float4.hpp \
   /usr/include/glm/ext/vector_float4_precision.hpp \
+  /usr/include/glm/ext/vector_int1.hpp \
+  /usr/include/glm/ext/vector_int1_sized.hpp \
   /usr/include/glm/ext/vector_int2.hpp \
   /usr/include/glm/ext/vector_int2_sized.hpp \
   /usr/include/glm/ext/vector_int3.hpp \
   /usr/include/glm/ext/vector_int3_sized.hpp \
   /usr/include/glm/ext/vector_int4.hpp \
   /usr/include/glm/ext/vector_int4_sized.hpp \
+  /usr/include/glm/ext/vector_relational.hpp \
+  /usr/include/glm/ext/vector_relational.inl \
+  /usr/include/glm/ext/vector_uint1.hpp \
+  /usr/include/glm/ext/vector_uint1_sized.hpp \
   /usr/include/glm/ext/vector_uint2.hpp \
   /usr/include/glm/ext/vector_uint2_sized.hpp \
   /usr/include/glm/ext/vector_uint3.hpp \
@@ -1655,8 +1706,15 @@ CMakeFiles/Engine.dir/src/main.cpp.o: /home/elias/Projects/C++/Mirror/src/main.c
   /usr/include/glm/glm.hpp \
   /usr/include/glm/gtc/constants.hpp \
   /usr/include/glm/gtc/constants.inl \
+  /usr/include/glm/gtc/epsilon.hpp \
+  /usr/include/glm/gtc/epsilon.inl \
   /usr/include/glm/gtc/matrix_transform.hpp \
   /usr/include/glm/gtc/matrix_transform.inl \
+  /usr/include/glm/gtc/quaternion.hpp \
+  /usr/include/glm/gtc/quaternion.inl \
+  /usr/include/glm/gtc/type_ptr.hpp \
+  /usr/include/glm/gtc/type_ptr.inl \
+  /usr/include/glm/gtc/vec1.hpp \
   /usr/include/glm/integer.hpp \
   /usr/include/glm/mat2x2.hpp \
   /usr/include/glm/mat2x3.hpp \
@@ -2697,6 +2755,18 @@ CMakeFiles/Engine.dir/src/Variables.cpp.o:
 
 /usr/lib/libglfw.so.3.4:
 
+/usr/lib/libc_nonshared.a:
+
+/usr/lib/libXdmcp.so.6:
+
+/usr/lib/libXau.so.6:
+
+/usr/lib/libX11.so.6:
+
+/usr/lib/libGL.so:
+
+/usr/lib/ld-linux-x86-64.so.2:
+
 /usr/lib/libz.so.1:
 
 /usr/include/c++/15.2.1/bits/shared_ptr_base.h:
@@ -2726,6 +2796,10 @@ CMakeFiles/Engine.dir/src/Variables.cpp.o:
 /usr/include/sched.h:
 
 /usr/include/wctype.h:
+
+/usr/lib/libc.so.6:
+
+/usr/include/bits/fp-fast.h:
 
 /usr/include/c++/15.2.1/bits/stl_uninitialized.h:
 
@@ -2788,8 +2862,6 @@ CMakeFiles/Engine.dir/src/Variables.cpp.o:
 /usr/include/c++/15.2.1/tuple:
 
 /usr/include/c++/15.2.1/bits/stl_heap.h:
-
-/usr/include/c++/15.2.1/new:
 
 /usr/include/c++/15.2.1/bits/allocated_ptr.h:
 
@@ -2953,6 +3025,8 @@ CMakeFiles/Engine.dir/src/general.cpp.o:
 
 /usr/include/asm-generic/posix_types.h:
 
+/usr/include/c++/15.2.1/bits/stl_map.h:
+
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/c++/15.2.1/bits/ranges_cmp.h:
@@ -3033,11 +3107,11 @@ CMakeFiles/Engine.dir/src/general.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h:
 
+/home/elias/Projects/C++/Mirror/include/Material.h:
+
 /usr/include/bits/stdlib-float.h:
 
 /usr/include/bits/time64.h:
-
-/usr/lib/libGL.so:
 
 /usr/include/bits/byteswap.h:
 
@@ -3062,6 +3136,10 @@ CMakeFiles/Engine.dir/src/general.cpp.o:
 /usr/include/glm/ext/vector_double2_precision.hpp:
 
 /usr/include/c++/15.2.1/bits/basic_string.tcc:
+
+/usr/include/c++/15.2.1/new:
+
+/usr/include/c++/15.2.1/map:
 
 /usr/include/bits/errno.h:
 
@@ -3138,6 +3216,10 @@ CMakeFiles/Engine.dir/src/general.cpp.o:
 /usr/include/glm/detail/type_vec1.hpp:
 
 /usr/include/c++/15.2.1/bits/char_traits.h:
+
+/usr/lib/libGLdispatch.so.0:
+
+/usr/include/c++/15.2.1/backward/binders.h:
 
 /usr/include/c++/15.2.1/ext/concurrence.h:
 
@@ -3221,6 +3303,12 @@ CMakeFiles/Engine.dir/src/general.cpp.o:
 
 /home/elias/Projects/C++/Mirror/external/imgui-docking/imgui/backends/imgui_impl_glfw.h:
 
+/usr/lib/libGLX.so.0:
+
+/usr/include/c++/15.2.1/bits/exception_ptr.h:
+
+/usr/include/c++/15.2.1/bits/stl_multimap.h:
+
 /usr/include/c++/15.2.1/bits/chrono.h:
 
 /usr/include/sys/select.h:
@@ -3291,6 +3379,10 @@ CMakeFiles/Engine.dir/src/general.cpp.o:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h:
 
+/home/elias/Projects/C++/Mirror/include/Cone.h:
+
+/usr/include/glm/ext/matrix_projection.hpp:
+
 /home/elias/Projects/C++/Mirror/include/Cube.h:
 
 /usr/include/glm/ext/vector_uint4.hpp:
@@ -3298,6 +3390,8 @@ CMakeFiles/Engine.dir/src/general.cpp.o:
 /home/elias/Projects/C++/Mirror/include/Shader.h:
 
 /home/elias/Projects/C++/Mirror/include/Sphere.h:
+
+/usr/include/glm/ext/vector_bool3.hpp:
 
 /usr/include/glm/ext/quaternion_trigonometric.inl:
 
@@ -3321,10 +3415,6 @@ CMakeFiles/Engine.dir/src/general.cpp.o:
 
 /usr/include/bits/mathcalls-macros.h:
 
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h:
-
-/usr/include/bits/mathcalls-narrow.h:
-
 /usr/include/bits/posix2_lim.h:
 
 /usr/include/glm/ext/matrix_float2x3_precision.hpp:
@@ -3335,11 +3425,19 @@ CMakeFiles/Engine.dir/src/general.cpp.o:
 
 /usr/include/c++/15.2.1/tr1/ell_integral.tcc:
 
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h:
+
+/usr/include/bits/mathcalls-narrow.h:
+
+/usr/include/c++/15.2.1/bits/erase_if.h:
+
 /usr/include/c++/15.2.1/typeinfo:
 
 /usr/include/c++/15.2.1/bits/specfun.h:
 
 /usr/include/c++/15.2.1/bits/stl_bvector.h:
+
+/usr/include/c++/15.2.1/bits/stl_tree.h:
 
 /usr/include/c++/15.2.1/bits/vector.tcc:
 
@@ -3421,6 +3519,8 @@ CMakeFiles/Engine.dir/src/general.cpp.o:
 
 /usr/include/bits/types/struct_timeval.h:
 
+/usr/include/c++/15.2.1/bits/node_handle.h:
+
 /usr/include/glm/detail/setup.hpp:
 
 /usr/include/glm/ext/matrix_clip_space.inl:
@@ -3476,8 +3576,6 @@ CMakeFiles/Engine.dir/src/general.cpp.o:
 /usr/include/glm/detail/type_vec1.inl:
 
 /usr/include/glm/detail/type_vec2.inl:
-
-/usr/lib/libc_nonshared.a:
 
 /usr/include/glm/detail/type_vec3.inl:
 
@@ -3565,11 +3663,9 @@ CMakeFiles/Engine.dir/src/OpenGLerrorreporting.cpp.o:
 
 /usr/include/glm/ext/matrix_float4x4_precision.hpp:
 
-/usr/include/glm/ext/matrix_projection.hpp:
-
-/usr/lib/libXdmcp.so.6:
-
 /usr/include/glm/ext/matrix_transform.hpp:
+
+/home/elias/Projects/C++/Mirror/include/Torus.h:
 
 /usr/include/glm/ext/quaternion_common.hpp:
 
@@ -3618,8 +3714,6 @@ CMakeFiles/Engine.dir/src/OpenGLerrorreporting.cpp.o:
 /usr/include/asm/types.h:
 
 /usr/include/glm/ext/vector_bool2_precision.hpp:
-
-/usr/include/glm/ext/vector_bool3.hpp:
 
 /usr/include/glm/ext/vector_double1.hpp:
 
@@ -3772,21 +3866,3 @@ libimgui.a:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
-
-/usr/lib/ld-linux-x86-64.so.2:
-
-/usr/include/c++/15.2.1/bits/exception_ptr.h:
-
-/usr/lib/libGLX.so.0:
-
-/usr/include/c++/15.2.1/backward/binders.h:
-
-/usr/lib/libGLdispatch.so.0:
-
-/usr/lib/libX11.so.6:
-
-/usr/lib/libXau.so.6:
-
-/usr/include/bits/fp-fast.h:
-
-/usr/lib/libc.so.6:

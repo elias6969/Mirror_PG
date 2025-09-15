@@ -16,6 +16,8 @@ public:
 
   ~Sphere();
 
+  glm::vec3 color;
+
 private:
   void generateSphere();
   void setupMesh();
