@@ -55,6 +55,12 @@
 },
 {
   "directory": "/home/elias/Projects/C++/Mirror/build",
+  "command": "/usr/bin/c++  -I/home/elias/Projects/C++/Mirror/include -I/home/elias/Projects/C++/Mirror/external -I/home/elias/Projects/C++/Mirror/external/glad/include -I/home/elias/Projects/C++/Mirror/external/imgui-docking/imgui -I/home/elias/Projects/C++/Mirror/external/imgui-docking/imgui/backends -g -std=gnu++23 -o CMakeFiles/Engine.dir/src/Variables.cpp.o -c /home/elias/Projects/C++/Mirror/src/Variables.cpp",
+  "file": "/home/elias/Projects/C++/Mirror/src/Variables.cpp",
+  "output": "CMakeFiles/Engine.dir/src/Variables.cpp.o"
+},
+{
+  "directory": "/home/elias/Projects/C++/Mirror/build",
   "command": "/usr/bin/c++  -I/home/elias/Projects/C++/Mirror/include -I/home/elias/Projects/C++/Mirror/external -I/home/elias/Projects/C++/Mirror/external/glad/include -I/home/elias/Projects/C++/Mirror/external/imgui-docking/imgui -I/home/elias/Projects/C++/Mirror/external/imgui-docking/imgui/backends -g -std=gnu++23 -o CMakeFiles/Engine.dir/src/filemanager.cpp.o -c /home/elias/Projects/C++/Mirror/src/filemanager.cpp",
   "file": "/home/elias/Projects/C++/Mirror/src/filemanager.cpp",
   "output": "CMakeFiles/Engine.dir/src/filemanager.cpp.o"
@@ -76,5 +82,11 @@
   "command": "/usr/bin/c++  -I/home/elias/Projects/C++/Mirror/include -I/home/elias/Projects/C++/Mirror/external -I/home/elias/Projects/C++/Mirror/external/glad/include -I/home/elias/Projects/C++/Mirror/external/imgui-docking/imgui -I/home/elias/Projects/C++/Mirror/external/imgui-docking/imgui/backends -g -std=gnu++23 -o CMakeFiles/Engine.dir/src/mirror_demo.cpp.o -c /home/elias/Projects/C++/Mirror/src/mirror_demo.cpp",
   "file": "/home/elias/Projects/C++/Mirror/src/mirror_demo.cpp",
   "output": "CMakeFiles/Engine.dir/src/mirror_demo.cpp.o"
+},
+{
+  "directory": "/home/elias/Projects/C++/Mirror/build",
+  "command": "/usr/bin/c++  -I/home/elias/Projects/C++/Mirror/include -I/home/elias/Projects/C++/Mirror/external -I/home/elias/Projects/C++/Mirror/external/glad/include -I/home/elias/Projects/C++/Mirror/external/imgui-docking/imgui -I/home/elias/Projects/C++/Mirror/external/imgui-docking/imgui/backends -g -std=gnu++23 -o CMakeFiles/Engine.dir/src/textureManager.cpp.o -c /home/elias/Projects/C++/Mirror/src/textureManager.cpp",
+  "file": "/home/elias/Projects/C++/Mirror/src/textureManager.cpp",
+  "output": "CMakeFiles/Engine.dir/src/textureManager.cpp.o"
 }
 ]

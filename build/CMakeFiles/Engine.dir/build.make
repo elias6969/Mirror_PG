@@ -86,10 +86,24 @@ CMakeFiles/Engine.dir/src/OpenGLerrorreporting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Engine.dir/src/OpenGLerrorreporting.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elias/Projects/C++/Mirror/src/OpenGLerrorreporting.cpp -o CMakeFiles/Engine.dir/src/OpenGLerrorreporting.cpp.s
 
+CMakeFiles/Engine.dir/src/Variables.cpp.o: CMakeFiles/Engine.dir/flags.make
+CMakeFiles/Engine.dir/src/Variables.cpp.o: /home/elias/Projects/C++/Mirror/src/Variables.cpp
+CMakeFiles/Engine.dir/src/Variables.cpp.o: CMakeFiles/Engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elias/Projects/C++/Mirror/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Engine.dir/src/Variables.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Engine.dir/src/Variables.cpp.o -MF CMakeFiles/Engine.dir/src/Variables.cpp.o.d -o CMakeFiles/Engine.dir/src/Variables.cpp.o -c /home/elias/Projects/C++/Mirror/src/Variables.cpp
+
+CMakeFiles/Engine.dir/src/Variables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Engine.dir/src/Variables.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elias/Projects/C++/Mirror/src/Variables.cpp > CMakeFiles/Engine.dir/src/Variables.cpp.i
+
+CMakeFiles/Engine.dir/src/Variables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Engine.dir/src/Variables.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elias/Projects/C++/Mirror/src/Variables.cpp -o CMakeFiles/Engine.dir/src/Variables.cpp.s
+
 CMakeFiles/Engine.dir/src/filemanager.cpp.o: CMakeFiles/Engine.dir/flags.make
 CMakeFiles/Engine.dir/src/filemanager.cpp.o: /home/elias/Projects/C++/Mirror/src/filemanager.cpp
 CMakeFiles/Engine.dir/src/filemanager.cpp.o: CMakeFiles/Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elias/Projects/C++/Mirror/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Engine.dir/src/filemanager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elias/Projects/C++/Mirror/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Engine.dir/src/filemanager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Engine.dir/src/filemanager.cpp.o -MF CMakeFiles/Engine.dir/src/filemanager.cpp.o.d -o CMakeFiles/Engine.dir/src/filemanager.cpp.o -c /home/elias/Projects/C++/Mirror/src/filemanager.cpp
 
 CMakeFiles/Engine.dir/src/filemanager.cpp.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/Engine.dir/src/filemanager.cpp.s: cmake_force
 CMakeFiles/Engine.dir/src/general.cpp.o: CMakeFiles/Engine.dir/flags.make
 CMakeFiles/Engine.dir/src/general.cpp.o: /home/elias/Projects/C++/Mirror/src/general.cpp
 CMakeFiles/Engine.dir/src/general.cpp.o: CMakeFiles/Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elias/Projects/C++/Mirror/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Engine.dir/src/general.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elias/Projects/C++/Mirror/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Engine.dir/src/general.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Engine.dir/src/general.cpp.o -MF CMakeFiles/Engine.dir/src/general.cpp.o.d -o CMakeFiles/Engine.dir/src/general.cpp.o -c /home/elias/Projects/C++/Mirror/src/general.cpp
 
 CMakeFiles/Engine.dir/src/general.cpp.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/Engine.dir/src/general.cpp.s: cmake_force
 CMakeFiles/Engine.dir/src/main.cpp.o: CMakeFiles/Engine.dir/flags.make
 CMakeFiles/Engine.dir/src/main.cpp.o: /home/elias/Projects/C++/Mirror/src/main.cpp
 CMakeFiles/Engine.dir/src/main.cpp.o: CMakeFiles/Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elias/Projects/C++/Mirror/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Engine.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elias/Projects/C++/Mirror/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Engine.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Engine.dir/src/main.cpp.o -MF CMakeFiles/Engine.dir/src/main.cpp.o.d -o CMakeFiles/Engine.dir/src/main.cpp.o -c /home/elias/Projects/C++/Mirror/src/main.cpp
 
 CMakeFiles/Engine.dir/src/main.cpp.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/Engine.dir/src/main.cpp.s: cmake_force
 CMakeFiles/Engine.dir/src/mirror_demo.cpp.o: CMakeFiles/Engine.dir/flags.make
 CMakeFiles/Engine.dir/src/mirror_demo.cpp.o: /home/elias/Projects/C++/Mirror/src/mirror_demo.cpp
 CMakeFiles/Engine.dir/src/mirror_demo.cpp.o: CMakeFiles/Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elias/Projects/C++/Mirror/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Engine.dir/src/mirror_demo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elias/Projects/C++/Mirror/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Engine.dir/src/mirror_demo.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Engine.dir/src/mirror_demo.cpp.o -MF CMakeFiles/Engine.dir/src/mirror_demo.cpp.o.d -o CMakeFiles/Engine.dir/src/mirror_demo.cpp.o -c /home/elias/Projects/C++/Mirror/src/mirror_demo.cpp
 
 CMakeFiles/Engine.dir/src/mirror_demo.cpp.i: cmake_force
@@ -142,22 +156,40 @@ CMakeFiles/Engine.dir/src/mirror_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Engine.dir/src/mirror_demo.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elias/Projects/C++/Mirror/src/mirror_demo.cpp -o CMakeFiles/Engine.dir/src/mirror_demo.cpp.s
 
+CMakeFiles/Engine.dir/src/textureManager.cpp.o: CMakeFiles/Engine.dir/flags.make
+CMakeFiles/Engine.dir/src/textureManager.cpp.o: /home/elias/Projects/C++/Mirror/src/textureManager.cpp
+CMakeFiles/Engine.dir/src/textureManager.cpp.o: CMakeFiles/Engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elias/Projects/C++/Mirror/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Engine.dir/src/textureManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Engine.dir/src/textureManager.cpp.o -MF CMakeFiles/Engine.dir/src/textureManager.cpp.o.d -o CMakeFiles/Engine.dir/src/textureManager.cpp.o -c /home/elias/Projects/C++/Mirror/src/textureManager.cpp
+
+CMakeFiles/Engine.dir/src/textureManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Engine.dir/src/textureManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elias/Projects/C++/Mirror/src/textureManager.cpp > CMakeFiles/Engine.dir/src/textureManager.cpp.i
+
+CMakeFiles/Engine.dir/src/textureManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Engine.dir/src/textureManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elias/Projects/C++/Mirror/src/textureManager.cpp -o CMakeFiles/Engine.dir/src/textureManager.cpp.s
+
 # Object files for target Engine
 Engine_OBJECTS = \
 "CMakeFiles/Engine.dir/src/OpenGLerrorreporting.cpp.o" \
+"CMakeFiles/Engine.dir/src/Variables.cpp.o" \
 "CMakeFiles/Engine.dir/src/filemanager.cpp.o" \
 "CMakeFiles/Engine.dir/src/general.cpp.o" \
 "CMakeFiles/Engine.dir/src/main.cpp.o" \
-"CMakeFiles/Engine.dir/src/mirror_demo.cpp.o"
+"CMakeFiles/Engine.dir/src/mirror_demo.cpp.o" \
+"CMakeFiles/Engine.dir/src/textureManager.cpp.o"
 
 # External object files for target Engine
 Engine_EXTERNAL_OBJECTS =
 
 Engine: CMakeFiles/Engine.dir/src/OpenGLerrorreporting.cpp.o
+Engine: CMakeFiles/Engine.dir/src/Variables.cpp.o
 Engine: CMakeFiles/Engine.dir/src/filemanager.cpp.o
 Engine: CMakeFiles/Engine.dir/src/general.cpp.o
 Engine: CMakeFiles/Engine.dir/src/main.cpp.o
 Engine: CMakeFiles/Engine.dir/src/mirror_demo.cpp.o
+Engine: CMakeFiles/Engine.dir/src/textureManager.cpp.o
 Engine: CMakeFiles/Engine.dir/build.make
 Engine: CMakeFiles/Engine.dir/compiler_depend.ts
 Engine: libglad.a
@@ -165,7 +197,7 @@ Engine: libimgui.a
 Engine: /usr/lib/libglfw.so.3.4
 Engine: /usr/lib/libGL.so
 Engine: CMakeFiles/Engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/elias/Projects/C++/Mirror/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/elias/Projects/C++/Mirror/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Engine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Engine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

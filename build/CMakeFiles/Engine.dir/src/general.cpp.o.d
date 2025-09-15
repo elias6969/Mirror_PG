@@ -1,7 +1,6 @@
 CMakeFiles/Engine.dir/src/general.cpp.o: \
  /home/elias/Projects/C++/Mirror/src/general.cpp \
  /usr/include/stdc-predef.h \
- /home/elias/Projects/C++/Mirror/include/Cube.h \
  /home/elias/Projects/C++/Mirror/include/Camera.h \
  /home/elias/Projects/C++/Mirror/external/glad/include/glad/glad.h \
  /home/elias/Projects/C++/Mirror/external/glad/include/KHR/khrplatform.h \
@@ -218,6 +217,9 @@ CMakeFiles/Engine.dir/src/general.cpp.o: \
  /usr/include/glm/ext/matrix_transform.hpp \
  /usr/include/glm/ext/matrix_transform.inl \
  /usr/include/glm/gtc/matrix_transform.inl \
+ /home/elias/Projects/C++/Mirror/include/Cube.h \
+ /home/elias/Projects/C++/Mirror/include/Camera.h \
+ /home/elias/Projects/C++/Mirror/include/Material.h \
  /home/elias/Projects/C++/Mirror/include/Shader.h \
  /usr/include/c++/15.2.1/string /usr/include/c++/15.2.1/bits/stringfwd.h \
  /usr/include/c++/15.2.1/bits/memoryfwd.h \
@@ -338,25 +340,22 @@ CMakeFiles/Engine.dir/src/general.cpp.o: \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/15.2.1/bits/fstream.tcc /usr/include/c++/15.2.1/sstream \
  /usr/include/c++/15.2.1/bits/sstream.tcc \
- /usr/include/c++/15.2.1/iostream /usr/include/GLFW/glfw3.h \
- /home/elias/Projects/C++/Mirror/include/filemanager.h \
- /usr/include/c++/15.2.1/filesystem /usr/include/c++/15.2.1/bits/fs_fwd.h \
- /usr/include/c++/15.2.1/bits/chrono.h /usr/include/c++/15.2.1/ratio \
- /usr/include/c++/15.2.1/bits/parse_numbers.h \
- /usr/include/c++/15.2.1/bits/fs_path.h /usr/include/c++/15.2.1/iomanip \
- /usr/include/c++/15.2.1/bits/quoted_string.h \
- /usr/include/c++/15.2.1/codecvt \
- /usr/include/c++/15.2.1/ext/concurrence.h \
- /usr/include/c++/15.2.1/bits/shared_ptr.h \
- /usr/include/c++/15.2.1/bits/shared_ptr_base.h \
- /usr/include/c++/15.2.1/bits/allocated_ptr.h \
- /usr/include/c++/15.2.1/bits/unique_ptr.h \
+ /usr/include/c++/15.2.1/iostream /usr/include/c++/15.2.1/map \
+ /usr/include/c++/15.2.1/bits/stl_tree.h \
  /usr/include/c++/15.2.1/ext/aligned_buffer.h \
- /usr/include/c++/15.2.1/bits/align.h \
+ /usr/include/c++/15.2.1/bits/node_handle.h \
+ /usr/include/c++/15.2.1/bits/stl_map.h \
+ /usr/include/c++/15.2.1/bits/stl_multimap.h \
+ /usr/include/c++/15.2.1/bits/erase_if.h /usr/include/c++/15.2.1/vector \
  /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
- /usr/include/c++/15.2.1/bits/fs_dir.h \
- /usr/include/c++/15.2.1/bits/fs_ops.h /usr/include/glm/gtc/type_ptr.hpp \
- /usr/include/glm/gtc/quaternion.hpp \
+ /usr/include/c++/15.2.1/bits/stl_vector.h \
+ /usr/include/c++/15.2.1/bits/stl_bvector.h \
+ /usr/include/c++/15.2.1/bits/vector.tcc /usr/include/GLFW/glfw3.h \
+ /home/elias/Projects/C++/Mirror/include/Material.h \
+ /home/elias/Projects/C++/Mirror/include/Sphere.h \
+ /home/elias/Projects/C++/Mirror/include/Variables.h \
+ /home/elias/Projects/C++/Mirror/include/textureManager.h \
+ /usr/include/glm/gtc/type_ptr.hpp /usr/include/glm/gtc/quaternion.hpp \
  /usr/include/glm/ext/vector_relational.hpp \
  /usr/include/glm/ext/vector_relational.inl \
  /usr/include/glm/detail/type_float.hpp \
@@ -391,8 +390,6 @@ CMakeFiles/Engine.dir/src/general.cpp.o: \
  /usr/include/c++/15.2.1/cstring /usr/include/string.h \
  /usr/include/strings.h /usr/include/glm/gtc/type_ptr.inl \
  /home/elias/Projects/C++/Mirror/external/stb_image.h \
- /usr/include/c++/15.2.1/stdlib.h /usr/include/c++/15.2.1/math.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/emmintrin.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xmmintrin.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mmintrin.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mm_malloc.h
+ /usr/include/c++/15.2.1/stdlib.h \
+ /home/elias/Projects/C++/Mirror/include/Cone.h \
+ /home/elias/Projects/C++/Mirror/include/Torus.h

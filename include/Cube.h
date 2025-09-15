@@ -2,6 +2,7 @@
 #define CUBE_H
 
 #include "Camera.h"
+#include "Material.h"
 #include "Shader.h"
 #include <GLFW/glfw3.h>
 #include <glad/glad.h>

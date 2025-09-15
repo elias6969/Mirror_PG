@@ -371,6 +371,30 @@ src/OpenGLerrorreporting.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/OpenGLerrorreporting.cpp.s
 .PHONY : src/OpenGLerrorreporting.cpp.s
 
+src/Variables.o: src/Variables.cpp.o
+.PHONY : src/Variables.o
+
+# target to build an object file
+src/Variables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/Variables.cpp.o
+.PHONY : src/Variables.cpp.o
+
+src/Variables.i: src/Variables.cpp.i
+.PHONY : src/Variables.i
+
+# target to preprocess a source file
+src/Variables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/Variables.cpp.i
+.PHONY : src/Variables.cpp.i
+
+src/Variables.s: src/Variables.cpp.s
+.PHONY : src/Variables.s
+
+# target to generate assembly for a file
+src/Variables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/Variables.cpp.s
+.PHONY : src/Variables.cpp.s
+
 src/filemanager.o: src/filemanager.cpp.o
 .PHONY : src/filemanager.o
 
@@ -467,6 +491,30 @@ src/mirror_demo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/mirror_demo.cpp.s
 .PHONY : src/mirror_demo.cpp.s
 
+src/textureManager.o: src/textureManager.cpp.o
+.PHONY : src/textureManager.o
+
+# target to build an object file
+src/textureManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/textureManager.cpp.o
+.PHONY : src/textureManager.cpp.o
+
+src/textureManager.i: src/textureManager.cpp.i
+.PHONY : src/textureManager.i
+
+# target to preprocess a source file
+src/textureManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/textureManager.cpp.i
+.PHONY : src/textureManager.cpp.i
+
+src/textureManager.s: src/textureManager.cpp.s
+.PHONY : src/textureManager.s
+
+# target to generate assembly for a file
+src/textureManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/textureManager.cpp.s
+.PHONY : src/textureManager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -505,6 +553,9 @@ help:
 	@echo "... src/OpenGLerrorreporting.o"
 	@echo "... src/OpenGLerrorreporting.i"
 	@echo "... src/OpenGLerrorreporting.s"
+	@echo "... src/Variables.o"
+	@echo "... src/Variables.i"
+	@echo "... src/Variables.s"
 	@echo "... src/filemanager.o"
 	@echo "... src/filemanager.i"
 	@echo "... src/filemanager.s"
@@ -517,6 +568,9 @@ help:
 	@echo "... src/mirror_demo.o"
 	@echo "... src/mirror_demo.i"
 	@echo "... src/mirror_demo.s"
+	@echo "... src/textureManager.o"
+	@echo "... src/textureManager.i"
+	@echo "... src/textureManager.s"
 .PHONY : help
 
 
